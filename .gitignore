@@ -1,0 +1,4 @@
+tle_frontend/node_modules/
+tle_frontend/.env
+tle_backend/node_modules/
+tle_backend/.env
