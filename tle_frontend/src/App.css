@@ -1,0 +1,7 @@
+*{
+  font-family: Poppins;
+}
+
+.form-control:focus{
+  outline: none
+}
