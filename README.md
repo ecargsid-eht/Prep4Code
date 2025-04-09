@@ -1,8 +1,8 @@
-# Contest Tracker Documentation
+# Prep4Code Documentation
 
 ## Overview
 
-Contest Tracker is a web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) that fetches and displays upcoming contests from various competitive programming platforms, including Codeforces, CodeChef, and LeetCode. Users can filter contests by platform, bookmark contests, and access solution links from a dedicated YouTube channel.
+Prep4Code is a web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) that fetches and displays upcoming contests from various competitive programming platforms, including Codeforces, CodeChef, and LeetCode. Users can filter contests by platform, bookmark contests, and access solution links from a dedicated YouTube channel.
 
 ## Features
 
