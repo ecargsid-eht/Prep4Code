@@ -39,10 +39,10 @@ mongoose.connect(process.env.MONGO_URL)
         console.log(err.message);
     })
 
-cron.schedule('04 15 * * *', () => {
+cron.schedule('* * * * *', () => {
     fetchAndSaveContests();
 })
 
-cron.schedule('26 15 * * *', () => {
+cron.schedule('* * * * *', () => {
     updateContestsWithVideos();
 });
