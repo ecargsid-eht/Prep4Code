@@ -38,11 +38,12 @@ mongoose.connect(process.env.MONGO_URL)
     .catch((err) => {
         console.log(err.message);
     })
+// ...existing code...
 
-cron.schedule('* * * * *', () => {
+cron.schedule('0 */4 * * *', () => {
     fetchAndSaveContests();
 })
 
-cron.schedule('* * * * *', () => {
+cron.schedule('0 */4 * * *', () => {
     updateContestsWithVideos();
 });
